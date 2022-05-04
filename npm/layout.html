@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container-sm">
+            <p>Our grid supports six responsive breakpoints. Breakpoints are based on min-width media queries, meaning they affect that breakpoint and all those above it (e.g., .col-sm-4 applies to sm, md, lg, xl, and xxl). This means you can control container and column sizing and behavior by each breakpoint.
+
+                Containers center and horizontally pad your content. Use .container for a responsive pixel width, .container-fluid for width: 100% across all viewports and devices, or a responsive container (e.g., .container-md) for a combination of fluid and pixel widths.
+                
+                Rows are wrappers for columns. Each column has horizontal padding (called a gutter) for controlling the space between them. This padding is then counteracted on the rows with negative margins to ensure the content in your columns is visually aligned down the left side. Rows also support modifier classes to uniformly apply column sizing and gutter classes to change the spacing of your content.
+                
+                Columns are incredibly flexible. There are 12 template columns available per row, allowing you to create different combinations of elements that span any number of columns. Column classes indicate the number of template columns to span (e.g., col-4 spans four). widths are set in percentages so you always have the same relative sizing.
+                
+                Gutters are also responsive and customizable. Gutter classes are available across all breakpoints, with all the same sizes as our margin and padding spacing. Change horizontal gutters with .gx-* classes, vertical gutters with .gy-*, or all gutters with .g-* classes. .g-0 is also available to remove gutters.</p>
+        </div>
+        <hr>
+
+        <h2>Grid System</h2>
+
+        <div class="container ">
+
+            <h5>Column Grid</h5>
+
+            <div class="row">
+                <div class="col-md-4 card">
+                    <h5>Col-4</h5>
+                </div>
+                <div class="col-md-8 card">
+                    <h5>Col-8</h5>
+                </div>
+                <div class="col-lg-2 card">
+                    <h5>Col-2</h5>
+                </div>
+                <div class="col-lg-2 card">
+                    <h5>Col-2</h5>
+                </div>
+                <div class="col-sm-2 card">
+                    <h5>Col-2</h5>
+                </div>
+                <div class="col-sm-2 card">
+                    <h5>Col-2</h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <h5>Column Alignments</h5>
+
+            <div class="row bg-success align-items-center mt-5" style="height:100px">
+                <div class="col-md bg-primary align-self-start" style="height:50px">
+                    <h5>Column 1</h5>
+                </div>
+                <div class="col bg-warning align-self-center" style="height:50px">
+                    <h5>Column 2</h5>
+                </div>
+                
+            </div>
+
+            <hr>
+
+            <h5>Gutters</h5>
+
+            <div class="row g-5 bg-secondary">
+
+                <div class="col-6">
+
+                    <div class=" card bg-info">
+                        <h5>Column 1</h5>
+                    </div>
+                    
+                </div>
+
+                <div class="col-6 ">
+                    <div class=" card bg-info">
+                        <h5>Column 2</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 ">
+                    <div class=" card bg-info">
+                        <h5>Column 2</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 ">
+                    <div class=" card bg-info">
+                        <h5>Column 2</h5>
+                    </div>
+                </div>
+
+               
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <h5>Display Breakpoint</h5>
+
+        <div class="container mb-5">
+            <div class="card p-5 ">
+                <h2 class="display-md">Hello World</h2>
+            </div>
+        </div>
+
+       
+
+        
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js" async defer></script>
+    </body>
+</html>
